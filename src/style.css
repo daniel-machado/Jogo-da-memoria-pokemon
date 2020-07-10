@@ -1,0 +1,24 @@
+.container-fluid {
+	background-color: grey;
+}
+#AreaBtn {
+	display: flex;
+	justify-content: space-evenly;
+}
+.pokemon-title {
+	margin-top: 10px;
+}
+#carregando {
+	margin-top: 10px;
+}
+.card {
+	width: 50%;
+}
+@media (max-width: 576px) {
+	.card {
+		width: 100%;
+	}
+	#conteudo > .col-sm-3 {
+		width: 25%;
+	}
+}
